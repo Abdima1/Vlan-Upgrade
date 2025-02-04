@@ -1,0 +1,12 @@
+1: configure the correct IP address/subnet mask on each pc set the gateway
+address as the last usable address of the subnet
+
+
+2: Make the two connection between R1 and Sw1.
+configure one interface on  R1 for each Vlan make sure the ip address are the gateway address you configured on the pc
+
+
+3: Configure sw1 interface in the proper vlan remember the interface that connect to r1 
+name the vlans 
+
+4: Ping between the pc to check connectivity send a broadcast ping from a pc and see which device receives the broadcast.
